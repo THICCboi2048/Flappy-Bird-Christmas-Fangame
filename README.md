@@ -1,3 +1,6 @@
+Disclaimer: This is so ugly. Please don't look at it
+
+
 <h2>FLAPPY CHRISTMAS: THE GAME</h2>
 
 A quick and really, really, really, really trashy fangame of Flappy Bird, made in christmas of 2023 (don't ask me why I'm uploading this in april)
