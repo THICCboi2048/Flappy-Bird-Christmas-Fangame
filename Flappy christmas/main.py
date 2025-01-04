@@ -1,5 +1,5 @@
 #huge shotout to Tech with Tim "pygame in 90 minutes" video for teaching most of the stuff I used here 
-#also, I'm so fking proud of this, even if it sucks, it took like 3 days afterall (WOW!! 3 WHOLE DAYS NO WAY!!!)
+#also, I'm so fking proud of this, even if it sucks, it took like 3 days afterall (WOW!! 3 WHOLE DAYS, NO WAY!!!)
 #to "customize" difficulty just change a bit crear_tuberias() or the VEL variables/constants
 import pygame
 import os
@@ -184,15 +184,15 @@ def main():
             if not pygame.mixer.music.get_busy():
                 pygame.mixer.music.play()
 
-        if muerte != False:
-            gameover()
-            break
-        
         comprobar_choque(flappy, tuberias_arriba, tuberias_abajo)
         crear_tuberias(tuberias_arriba, tuberias_abajo)
         gravedad(flappy)
         crear_ventana(flappy, tuberia, tuberias_arriba, tuberia_abajo, tuberias_abajo)
 
+        if muerte != False:
+            gameover()
+            break
+            
     main()
 
 if __name__ == "__main__":
